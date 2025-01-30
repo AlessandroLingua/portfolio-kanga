@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Alessandro Lingua - Contact</title>
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="footer.css" />
+    </head>
+    <body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Interested in working together or have a question? Fill out the form below!</p>
+
+        <!-- Simple mailto-based form or integrate with server-side if you have a backend -->
+        <form action="mailto:your-email@domain.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alessandro Lingua. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
